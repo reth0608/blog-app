@@ -10,7 +10,7 @@
     <h1>Blog Home</h1>
         <a id="new"  href="/compose" target="_blank">+</a>
     <% posts.forEach(function(post){ %>
-        <div id="blog">
+        <div class="blog">
             <h2><%= post.title %></h2>
             <p><%= post.content.substring(0, 49) %>...</p>
             <a href="/posts/<%= post._id %>"> Read more </a>
