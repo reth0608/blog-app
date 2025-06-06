@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Compose</title>
+</head>
+<body>
+  <h1>Compose New Post</h1>
+
+  <form action="/compose" method="POST">
+    <input type="text" name="postTitle" placeholder="Title" required>
+    <br><br>
+    <textarea name="postBody" rows="10" cols="30" placeholder="Your post content" required></textarea>
+    <br><br>
+    <button type="submit">Publish</button>
+  </form>
+
+  <a href="/">Back to Home</a>
+</body>
+</html>
